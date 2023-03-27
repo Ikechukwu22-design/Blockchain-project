@@ -1,0 +1,978 @@
+body {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.afriq {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.afr {
+    width: 1080px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     height: 80px;
+     align-items: center;
+
+}
+
+.order {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+ .nav {
+    text-decoration: none;
+    color: #161d2c;;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.dropbtn {
+    display: inline-block;
+    text-align: center;
+
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  color: #77ac49;
+}
+
+li .dropdown {
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #161d2c;
+min-width: 180px;
+z-index: 1;
+
+}
+
+.dropdown-content a {
+color: #b8b3b3;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+font-size: 12px;
+font-family: inherit;
+}
+
+.dropdown-content a:hover {
+color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.sect {
+width: 1080px;
+margin: 30px auto;
+display: grid;
+grid-template-columns: 1fr 2fr 2fr;
+grid-column-gap: 30px;
+vertical-align: center;
+
+}
+
+.flex-item {
+vertical-align: ;
+}
+
+.box-1 {
+width: 700px;
+height: 500px;
+background-image: url(https://www.blockchainafrica.io/wp-content/uploads/2023/03/space-5000696_640.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+margin-top: 20px;
+}
+
+
+.crypto {
+padding-left: 30px;
+bottom: 60px;
+position: absolute;
+}
+
+.news {
+background: #ffb400;
+margin-left: 9px;
+margin-bottom: 10px;
+padding: 4px 7px;
+letter-spacing: 0.5px;
+width: 95px;
+border-radius: 3px;
+border: none;
+color: #fff;
+font-size: small;
+cursor: pointer;
+}
+
+.news:hover {
+background: #77ac49;
+}
+
+.trade {
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+padding: 4px 7px;
+margin: ;
+
+}
+
+.coin {
+border-radius: 3px;
+line-height: 1.16em;
+padding: 1px 10px 2px;
+background: #161d2c;
+letter-spacing: -1.8px;
+font-weight: 100;
+cursor: pointer;
+font-size: 2.2em;
+
+}
+
+.box-2 {
+width: 350px;
+height: 250px;
+background-image: url(https://www.blockchainafrica.io/wp-content/uploads/2023/01/china-162389_640-1.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+margin-top: 15px;
+}
+
+.crypto-2 {
+padding-left: 30px;
+position: absolute;
+top: 40px;
+}
+
+.news-2 {
+background: #ffb400;
+margin-left: 9px;
+margin-bottom: 10px;
+padding: 4px 7px;
+letter-spacing: 0.5px;
+width: 70px;
+border-radius: 3px;
+border: none;
+color: #fff;
+font-size: small;
+cursor: pointer;
+}
+
+.news-2:hover {
+background: #77ac49;
+}
+
+.trade-2 {
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+padding: 4px 7px;
+}
+
+.coin-2 {
+border-radius: 3px;
+line-height: 1.16em;
+padding: 1px 10px 2px;
+background: #161d2c;
+letter-spacing: -1.8px;
+font-weight: 100;
+cursor: pointer;
+font-size: 1.5em;
+
+}
+
+.box-3 {
+width: 350px;
+height: 250px;
+background: url(https://www.blockchainafrica.io/wp-content/uploads/2023/02/binance-logo-6219389_640-1-640x428.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+margin-top: 15px;
+}
+
+.crypto-3 {
+padding-left: 30px;
+position: absolute;
+top: 40px;
+}
+
+.news-3 {
+background: #ffb400;
+margin-left: 9px;
+margin-top: 2px;
+padding: 4px 7px;
+letter-spacing: 0.5px;
+width: 95px;
+border-radius: 3px;
+border: none;
+color: #fff;
+font-size: small;
+cursor: pointer;;
+}
+
+.news-3:hover {
+background: #77ac49;
+}
+
+.trade-3 {
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+padding: 4px 7px;
+}
+
+.coin-3 {
+border-radius: 3px;
+line-height: 1.16em;
+padding: 1px 10px 2px;
+background: #161d2c;
+letter-spacing: -1.8px;
+font-weight: 100;
+cursor: pointer;
+font-size: 1.5em;
+
+}
+
+.sect-1 {
+width: 1080px;
+margin: 30px auto;
+display: flex;
+column-gap: 1.5em;
+
+}
+
+.box-4 {
+width: 350px;
+height: 250px;
+background: url(https://www.blockchainafrica.io/wp-content/uploads/2023/03/istockphoto-1138831797-612x612-1.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.crypto-4 {
+padding-left: 30px;
+position: absolute;
+top: 40px;
+}
+
+.news-4 {
+background: #ffb400;
+margin-left: 9px;
+margin-bottom: 10px;
+padding: 4px 7px;
+letter-spacing: 0.5px;
+width: 109px;
+border-radius: 3px;
+border: none;
+color: #fff;
+font-size: small;
+cursor: pointer;
+}
+
+.news-4:hover {
+background: #77ac49;
+}
+
+.trade-4 {
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+padding: 4px 7px;
+}
+
+.coin-4 {
+border-radius: 3px;
+line-height: 1.16em;
+padding: 1px 10px 2px;
+background: #161d2c;
+letter-spacing: -1.8px;
+font-weight: 100;
+cursor: pointer;
+font-size: 1.5em;
+
+}
+
+.box-5 {
+width: 350px;
+height: 250px;
+background: url(https://www.blockchainafrica.io/wp-content/uploads/2023/03/istockphoto-1166821901-612x612-1-612x428.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.crypto-5 {
+padding-left: 30px;
+position: absolute;
+top: 40px;
+}
+
+.news-5 {
+background: #ffb400;
+margin-left: 9px;
+margin-bottom: 10px;
+padding: 4px 7px;
+letter-spacing: 0.5px;
+width: 95px;
+border-radius: 3px;
+border: none;
+color: #fff;
+font-size: small;
+cursor: pointer;
+}
+
+.news-5:hover {
+background: #77ac49;
+}
+
+.trade-5 {
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+padding: 4px 7px;
+}
+
+.coin-5 {
+border-radius: 3px;
+line-height: 1.16em;
+padding: 1px 10px 2px;
+background: #161d2c;
+letter-spacing: -1.8px;
+font-weight: 100;
+cursor: pointer;
+font-size: 1.5em;
+
+}
+
+.box-6 {
+width: 350px;
+height: 250px;
+background: url(https://www.blockchainafrica.io/wp-content/uploads/2023/03/istockphoto-1138831797-612x612-1.jpg);
+position: relative;
+}
+
+.crypto-6 {
+padding-left: 30px;
+position: absolute;
+top: 10px;
+}
+
+.news-6 {
+background: #ffb400;
+margin-left: 9px;
+margin-bottom: 10px;
+padding: 4px 7px;
+letter-spacing: 0.5px;
+width: 95px;
+border-radius: 3px;
+border: none;
+color: #fff;
+font-size: small;
+cursor: pointer;
+}
+
+.news-56hover {
+background: #77ac49;
+}
+
+.trade-6 {
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+padding: 4px 7px;
+}
+
+.coin-6 {
+border-radius: 3px;
+line-height: 1.16em;
+padding: 1px 10px 2px;
+background-image: #161d2c;
+letter-spacing: -1.8px;
+font-weight: 100;
+cursor: pointer;
+font-size: 1.5em;
+
+}
+
+.navy {
+background-color: #00527a;
+color: #fff;
+height: 200px;
+}
+
+.binance {
+width: 1080px;
+margin: 30px auto;
+display: flex;
+justify-content: space-between;
+height: 200px;
+align-items: center;
+}
+
+.binance-1 {
+
+}
+
+.date {
+text-decoration: none;
+color: rgb(173, 174, 177);
+}
+
+.russ {
+display: flex;
+justify-content: space-between;
+column-gap: 20px;
+}
+
+.blog-post {
+width: 1080px;
+margin: 30px auto;
+display: grid;
+grid-template-columns: 70% 30%;
+}
+
+.blog {
+border-right: 1px solid #e9e1e1;
+}
+
+.post {
+width: 700px;
+height: 70px;
+background-color: #f7f7f7;
+border-color: #d4d0d0;
+border-radius: 5px;
+border: 1px solid transparent;
+padding: 28px 28px;
+}
+
+.rcent {
+margin-top: 40px;
+font-weight: normal;
+letter-spacing: 0;
+
+}
+
+.crypt {
+width: 220px;
+height: 190px;
+border-radius: 5px;
+background-image: url(https://www.blockchainafrica.io/wp-content/uploads/2023/03/space-5000696_640-360x266.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.crypt-1 {
+width: 220px;
+height: 190px;
+border-radius: 5px;
+background-image: url(https://www.blockchainafrica.io/wp-content/uploads/2023/01/china-162389_640-1-360x266.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.crypt-2 {
+width: 220px;
+height: 190px;
+border-radius: 5px;
+background-image: url(https://www.blockchainafrica.io/wp-content/uploads/2023/03/money-576443_640-360x266.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.crypt-3 {
+width: 220px;
+height: 190px;
+border-radius: 5px;
+background-image: url(https://www.blockchainafrica.io/wp-content/uploads/2023/02/binance-logo-6219389_640-1-360x266.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.crypt-4 {
+width: 220px;
+height: 190px;
+border-radius: 5px;
+background-image: url(https://www.blockchainafrica.io/wp-content/uploads/2023/03/istockphoto-1138831797-612x612-1-360x266.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.crypt-5 {
+width: 220px;
+height: 190px;
+border-radius: 5px;
+background-image: url(https://www.blockchainafrica.io/wp-content/uploads/2023/03/istockphoto-1166821901-612x612-1-360x266.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.crypt-6 {
+width: 220px;
+height: 190px;
+border-radius: 5px;
+background-image: url(https://www.blockchainafrica.io/wp-content/uploads/2023/03/putin-3520074_640-360x266.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.crypt-7 {
+width: 220px;
+height: 190px;
+border-radius: 5px;
+background-image: url(https://www.blockchainafrica.io/wp-content/uploads/2023/03/istockphoto-1364339598-612x612-1-360x266.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.crypt-8 {
+width: 220px;
+height: 190px;
+border-radius: 5px;
+background-color: url(https://www.blockchainafrica.io/wp-content/uploads/2023/03/coins-159889_640-360x266.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.crypy- {
+    margin-bottom: 20px;
+}
+
+.crypt-img {
+background: #77ac49;
+position: absolute;
+bottom: 20px;
+padding: 4px 7px;
+letter-spacing: 0.5px;
+width: 125px;
+border-radius: 0 3px 3px 0;
+border: none;
+color: #fff;
+text-decoration: none;
+cursor: pointer;
+
+}
+
+.crypt-img:hover {
+background-color: #ffb400;
+}
+
+.cryp {
+text-decoration: none;
+font-weight: 300;
+font-size: 0.938em;
+line-height: 1.65em;
+margin-top: 0.5em;
+color: #000000;
+}
+
+.crypt-2 {
+font-weight: 300;
+font-size: 1.2rem;
+line-height: 1.65em;
+margin-top: 0.5em;
+width: 250px;
+}
+
+.ctrl-side {
+width: 900px;
+display: flex;
+column-gap: px;
+}
+
+
+
+.comm {
+letter-spacing: 8px;
+}
+
+.trend {
+font-weight: bold;
+letter-spacing: 1px;
+font-size: 25px;
+}
+
+.view {
+color: #161d2c;
+border: 2px solid #f2f2f5;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 11px;
+padding: 20px 50px;
+letter-spacing: 0.5px;
+   
+}
+
+.view:hover {
+background: #77ac49;
+}
+
+.views {
+padding-left: 30px;
+}
+
+.view_1 {
+color: #161d2c;
+border: 2px solid #f2f2f5;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 11px;
+padding: 20px 200px;
+letter-spacing: 0.5px;
+
+}
+
+.view_1:hover {
+background: #77ac49;
+}
+
+.ico {
+background-color: #f7f7f7;
+height: 1000px;
+margin-top: 35px;
+}
+
+.ico-1 {
+width: 1080px;
+margin: 30px auto;
+padding-top: 80px;
+}
+
+.upper {
+text-decoration: none;
+color: #000;
+
+}
+
+.span-1 {
+font-size: 30px;
+letter-spacing: 0.2px;
+}
+
+.active {
+text-decoration: none;
+color: #333;
+margin-bottom: 0;
+background: #fff;
+border: 1px solid #ddd;
+font-size: 16px;
+font-weight: bold;
+border-bottom-color: transparent;
+padding: 10px 15px;
+border-radius: 4px 4px 0 0;
+box-shadow: none;
+position: relative;
+word-wrap: break-word;
+}
+
+.upcom, .past {
+text-decoration: none;
+color: #333;
+margin-bottom: 0;
+font-size: 15px;
+border-bottom-color: transparent;
+padding: 10px 15px;
+border-radius: 4px 4px 0 0;
+box-shadow: none;
+position: relative;
+word-wrap: break-word;
+}
+
+.upcom:hover, .past:hover {
+background: #e6e0e0;
+}
+
+.line-up {
+list-style-type: none;
+display: flex;
+}
+
+.ico-name {
+
+}
+
+
+#customers {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+padding-left: 15px;
+}
+
+#customers td, #customers th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+
+
+#customers th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #ccc9c9;
+color: #222;
+font-size: 16px;
+font-weight: bold;
+width: 26%;
+padding: 0.5em;
+vertical-align: middle;
+border: 1px solid #e5e5e5;
+border-bottom: 3px solid #ddd;
+font-style: normal;
+text-align: left;
+}
+
+table {
+border: 1px solid #000;
+}
+
+.custo {
+width: 150px;
+}
+
+.tableau {
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-top: 0;
+    
+}
+
+.more-1 {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.more {
+    border: 1px solid #000;
+    padding: 10px 490px;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    background: #383838;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.more:hover {
+    background-color: #3f3d3d;
+    color: #4141a3;
+}
+
+.editor-1 {
+    background-color: #f7f7f7;
+    height: 650px;
+}
+
+.editor {
+    width: 1080px;
+    margin: 30px auto;
+    margin-top: 130px;
+    
+}
+
+.conts {
+    padding-top: 70px;
+    font-size: 30px;
+    margin-bottom: 12px;
+    color: #00527a;
+    font-weight: normal;
+}
+
+.conts-1 {
+    font-size: 12px;
+}
+
+.inline-1, .inline-2, .inline-3, .inline-4 {
+    line-height: 2;
+}
+
+.checklist {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 30px;
+}
+
+.center {
+    width: 1080px;
+    margin: 30px auto;
+    background-color: #DDD;
+    height: 400px;
+}
+
+.signup {
+    text-align: center;
+    padding-top: 100px;
+    line-height: 2;
+}
+
+.subscripe {
+    color: #797979;
+    border-color: #e6e6e6;
+    background-color: #ffffff;
+    width: 700px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.submit {
+    background-color: #79ab4f;
+    color: #ffffff;
+    padding: 10px 24px;
+    letter-spacing: 0.5px;
+    font-size: 11px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: auto;
+    border-width: 0;
+    border: 0;
+    outline: 0;
+    word-wrap: break-word;
+    margin: 0;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+.subscripe {
+    color: #797979;
+    border-color: #e6e6e6;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    padding: 1em 1.3em;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+    resize: none;
+    margin: 0;
+    vertical-align: baseline;
+    word-wrap: break-word
+}
+
+.center-1 {
+    width: 1080px;
+    margin: 30px auto;
+}
+
+.cent-2 {
+    background-color: #00527a;
+    color;
+    outline: none;
+    font-style: normal;
+    line-height: 1.5em;
+    padding: 2em 0;
+    position: relative;
+    word-wrap: break-word;
+    height: 450px;    
+}
+
+.cent-3 {
+    width: 1080px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    line-height: 2.5em;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.align {
+    text-decoration: none;
+    color: #adaeb1;
+    font-size: 12.5px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.foot {
+    width: 1080px;
+    margin: 30px auto;
+}
+
+.plot {
+    font-weight: normal;
+    letter-spacing: 0;
+}
+
+.date {
+    width: 100px;
+    font-size: 15px;
+}
+
+
+.upp {
+    transition: opacity .3s ease-in-out;
+}
+
+
+
+.upp:hover {
+    opacity: 0.8;
+}
+    
